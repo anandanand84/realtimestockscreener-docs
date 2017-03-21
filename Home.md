@@ -1,11 +1,11 @@
 This is an editor tool which is used to write your own custom screener to find stock matching your trading criteria.
 
-## What programming language is this and how should I write?
+### What programming language is this and how should I write?
 
 Javascript. You request metadata and variables(discussed below) needed using comments at the begining in a specified syntax and write javascript to perform screens and return boolean true if matched. Your screener will be executed for everytick (if run everytick is specified) for every stocks.
 
 
-## How should I get the required data for my screener and what is the syntax for getting data.
+### How should I get the required data for my screener and what is the syntax for getting data.
 
 
 Below is the steps and syntax to get the required data.
