@@ -83,7 +83,7 @@ Gives you multiple arrays with variable names fifteenMinute_close, fifteenMinute
 
 where data is one or comma sperated below values
 
-| data    | Description                                   |
+| Data    | Description                                   |
 |------------|-----------------------------------------------|
 | yopen      | Yesterdays open price                         |
 | yhigh      | Yesterdays high price                         |
@@ -101,4 +101,11 @@ where data is one or comma sperated below values
 
 ### Filters
 
-Coming soon.
+Filters scrip based on conditions before executing the screener.
+
+Below filter filters the stocks that are in the top 10 turnover list.
+
+
+```
+\\filter topturnover min rank 0 max rank 10
+```
